@@ -1,0 +1,71 @@
+.navbar-bg {
+    background-color: #fff !important;
+    padding: 0 0px 0 0px !important;
+}
+
+/* Logo */
+.before-menu {
+    width: 20%;
+}
+
+.menu-list {
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/* Menu */
+.menu-item {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 200;
+    color: #000;
+    line-height: 90px;
+}
+.navbar-nav > .active {
+    border-bottom: 1px solid #000;
+    color: #000;
+    background: rgb(241, 241, 241);
+}
+
+
+
+
+/* Desktop Screen */
+
+/* Navbar bg */
+@media screen and (min-width:992px) {
+    .navbar-bg {
+    height: 90px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+/* Mobile Screen */
+@media screen and (max-width:991px) {
+    .menu-item {
+        width: 100%;
+        line-height: 60px;
+    }
+
+    .before-menu {
+        display: none !important;
+    }
+
+    .navbar-bg > .container {
+        padding: 20px 0 0 0;
+    }
+    .navbar-collapse {
+        padding: 20px 0 0 0;
+    }
+}

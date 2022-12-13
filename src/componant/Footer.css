@@ -1,0 +1,12 @@
+.footer-bg {
+    background: #3d3d3d;
+}
+
+.footer-bg a, p, span, div {
+    color: #fff;
+    font-weight: 200;
+}
+
+.footer-bg .footer-row {
+    padding: 2rem 0;
+}
