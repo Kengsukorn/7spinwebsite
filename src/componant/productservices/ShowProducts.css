@@ -1,0 +1,28 @@
+.title-show-products {
+    text-align: center;
+}
+.button-products {
+    justify-content: center;
+}
+ul.button-products {
+    border-bottom: 1px solid transparent;
+}
+#show-all-products button.nav-link {
+    border: 1px solid #212529 !important;
+    color: #212529;
+    border-radius: 10px !important;
+    margin: 0 0.5rem;
+}
+#show-all-products button.nav-link:hover {
+    border: 1px solid transparent !important;
+    background-color: #212529;
+    color: #fff;
+}
+#show-all-products button.active {
+    border: 1px solid transparent !important;
+    background-color: #212529 !important;
+    color: #fff !important;
+}
+section {
+    padding: 20px 0 30px;
+}

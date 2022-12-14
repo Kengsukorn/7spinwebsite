@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './Footer.css';
 
+import { FaFacebookF, FaLine, FaPhoneAlt } from 'react-icons/fa';
+
 function Footer() {
   return (
     <footer className='footer-bg'>
@@ -39,6 +41,22 @@ function Footer() {
           </Col>
         </Row>
       </Container>
+      <div className='container-sub-footer'>
+        <Container>
+          <Row className='sub-footer'>
+            <Col xs={12} md={6} className='col-l'>
+              <p>Copyright 2023 © <a href='https://7spin.co.th/' target="_blank">บริษัท เซเว่นสปิน จำกัด</a></p>
+            </Col>
+            <Col xs={12} md={6} className='col-r'>
+              <ul>
+                <li><FaFacebookF /></li>
+                <li><FaLine /></li>
+                <li><FaPhoneAlt /></li>
+              </ul>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </footer>
   )
 }

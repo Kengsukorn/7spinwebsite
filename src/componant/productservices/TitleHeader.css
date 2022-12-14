@@ -1,0 +1,10 @@
+.section-title-page {
+    background: rgb(144, 144, 255);
+}
+.section-title-page .col {
+    padding: 100px 0;
+}
+.section-title-page h1 {
+    text-transform: uppercase;
+    text-align: center;
+}

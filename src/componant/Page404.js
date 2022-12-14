@@ -1,17 +1,16 @@
 import React from 'react'
-
 import { Helmet } from "react-helmet";
 
-function Career() {
+function Page404() {
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Career</title>
+        <title>Page not found</title>
       </Helmet>
-      <div>Career</div>
+      <div>error 404</div>
     </>
   )
 }
 
-export default Career
+export default Page404

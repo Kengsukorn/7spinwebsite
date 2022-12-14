@@ -2,16 +2,16 @@ import React from 'react'
 
 import { Helmet } from "react-helmet";
 
-function Career() {
+function Business() {
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Career</title>
+        <title>Business</title>
       </Helmet>
-      <div>Career</div>
+      <div>Business</div>
     </>
   )
 }
 
-export default Career
+export default Business
