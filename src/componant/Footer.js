@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import './Footer.css';
 
 import { FaFacebookF, FaLine, FaPhoneAlt } from 'react-icons/fa';
+import { FiMail } from 'react-icons/fi';
 
 function Footer() {
   return (
@@ -49,9 +50,10 @@ function Footer() {
             </Col>
             <Col xs={12} md={6} className='col-r'>
               <ul>
-                <li><FaFacebookF /></li>
-                <li><FaLine /></li>
-                <li><FaPhoneAlt /></li>
+                <li><a href='https://www.facebook.com' alt='facebook' target='_blank'><FaFacebookF /></a></li>
+                <li><a href='https://line.me/th/' alt='line' target='_blank'><FaLine /></a></li>
+                <li><a href='tel:0887501188' alt='tel' target='_blank'><FaPhoneAlt /></a></li>
+                <li><a href='mailto:mathurapojjanakul@gmail.com' alt='mail' target='_blank'><FiMail /></a></li>
               </ul>
             </Col>
           </Row>

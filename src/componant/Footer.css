@@ -33,7 +33,10 @@
     display: inline;
     margin: 0 0.5rem ;
 }
-
+.sub-footer .col-r {
+    font-size: 18px;
+    margin-top: -4px;
+}
 
 
 /* Mobile Screen */
